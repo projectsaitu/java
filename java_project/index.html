@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- Correct font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- header section starts  -->
+
+    <header>
+        <a href="#" class="logo"><i class="fas fa-utensils"></i>Криптофуд.</a>
+
+        <nav class="navbar">
+            <a class="actived" href="#home">home</a>
+            <a href="#dishes">dishes</a>
+            <a href="#about">about</a>
+            <a href="#menu">menu</a>
+            <a href="#review">review</a>
+            <a href="#order">order</a>
+        </nav>
+
+        <div class="icons">
+            <i class="fas fa-bars" id="menu-bars"></i>
+            <i class="fas fa-search" id="search-icon"></i>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+        </div>
+
+
+    </header>
+
+    <!-- header section ends-->
+
+    <!-- search form -->
+    <form action="" id="search-form">
+        <input type="search" placeholder="search here..." name="" id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+        <i class="fas fa-times" id="close"></i>
+    </form>
+
+    <!-- home section starts -->
+
+    <section class="home" id="home">
+        <div class="swiper home-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>Блюдо дня</span>
+                        <h3>жареный цыпленок</h3>
+                        <p>
+                            Наши фирменные жареные куриные крылышки прекрасно маринуются, обжариваются до золотистой хрустящей корочки и
+                            подается со свежим салатом и спелыми помидорами черри. Наслаждайтесь идеальным сочетанием хруста и
+                            вкус в каждом кусочке. Идеально подходит для совместного использования или наслаждения в одиночку!
+                        </p>
+                        <a href="#" class="btn">закзать сейчас</a>
+                    </div>
+                    <div class="image">
+                        <img src="images/home1.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>блюд дня</span>
+                        <h3>острая лапша </h3>
+                        <p>Испытайте смелый вкус нашей пряной лапши, идеального сочетания лапши аль денте.
+                            с ароматными специями и яркими травами, дополненными кусочками пикантной колбасы. украшенный
+                            со свежими листьями базилика это блюдо доставляет дразнящий эффект, одновременно сытный и вкусный.
+                            незабываемо.</p>
+                        <a href="#" class="btn">закзать сейчас</a>
+                    </div>
+                    <div class="image">
+                        <img src="images/home2.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>блюдо дня</span>
+                        <h3>Горячая пицца</h3>
+                        <p>Побалуйте себя нашей аппетитной горячей пиццей с хрустящей золотистой корочкой и насыщенной
+                            томатный соус, плавленый сыр и свежие помидоры черри. Украшен яркими зелеными травами,
+                            Эта пицца представляет собой идеальную гармонию вкусов и текстур, предлагая восхитительно сытное блюдо.
+                            опыт в каждом укусе.</p>
+                        <a href="#" class="btn">Заказать сейчас</a>
+                    </div>
+                    <div class="image">
+                        <img src="images/home3.jpg" alt="">
+                    </div>
+                </div>
+
+            </div>
+            <div class="swiper-pagination"></div>
+
+        </div>
+
+    </section>
+
+    <!-- home section ends-->
+
+    <!-- dishes section starts-->
+
+    <section class="dishes" id="dishes">
+
+        <h3 class="sub-heading"> Наши блюда</h3>
+        <h1 class="heading"> популярные блюда</h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="images/dishe1.jpg" alt="">
+                <h3>Спагетти с креветками на гриле</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>1500</span>
+                <a href="#" class="btn">Добавить в корзину</a>
+            </div>
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="images/dishe2.jpg" alt="">
+                <h3>Паста</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>1000</span>
+                <a href="#" class="btn">добавить в корзину</a>
+            </div>
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="images/dishe3.jpg" alt="">
+                <h3>Жареная курица с травами</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>2000</span>
+                <a href="#" class="btn">добавить в корзину</a>
+            </div>
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="images/dishe4.jpg" alt="">
+                <h3>Пряное жаркое из овощной смеси</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>2300</span>
+                <a href="#" class="btn">добавить в корзину</a>
+            </div>
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="images/dishe5.jpg" alt="">
+                <h3>Пицца с ветчиной и ананасом и болгарским перцем.</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>1700</span>
+                <a href="#" class="btn">добавить в корзину</a>
+            </div>
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="images/dishe6.jpg" alt="">
+                <h3>2 пиццы</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>2200</span>
+                <a href="#" class="btn">добавить в корзину</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- dishes section ends-->
+
+    <!-- about section starts -->
+
+    <section class="about" id="about">
+
+        <h3 class="sub-heading"> О нас</h3>
+        <h1 class="heading"> почему именно мы? </h1>
+
+        <div class="row">
+
+            <div class="image">
+                <img src="images/about.jpg" alt="">
+            </div>
+
+
+            <div class="content">
+                <h3>Лучшая еда в мире!</h3>
+                <p>Добро пожаловать в Криптофуд! Расположенный в самом сердце Шри-Ланки, мы стремимся доставить вам вкусные,
+                    тщательно приготовленные блюда. От наших фирменных жареных куриных крылышек до аппетитной горячей пиццы,
+                    Острая лапша, освежающие соки и восхитительные десерты — каждое блюдо нашего меню приготовлено с использованием
+                    свежие ингредиенты и страсть к вкусу. Присоединяйтесь к нам, чтобы получить незабываемые впечатления от ужина, который
+                    празднует радость от вкусной еды, освежающих напитков и сладких угощений, подаваемых с теплой
+                    гостеприимство.</p>
+                <!-- <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus quam et neque dolor dignissimos sit eum qui ipsa minus quas.</p>     -->
+                <div class="icons-container">
+                    <div class="icons">
+                        <i class="fas fa-shipping-fast"></i>
+                        <span>бесплатная доставка</span>
+                    </div>
+                    <div class="icons">
+                        <i class="fas fa-dollar-sign"></i>
+                        <span>легкая оплата</span>
+                    </div>
+                    <div class="icons">
+                        <i class="fas fa-headset"></i>
+                        <span>24/7</span>
+                    </div>
+                </div>
+                <a href="#" class="btn">смотреть больше</a>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- about section ends -->
+
+    <!-- menu section starts  -->
+
+    <section class="menu" id="menu">
+
+        <h3 class="sub-heading"> Наше меню</h3>
+        <h1 class="heading"> специально сегодня </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/menu1.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="starts">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3> дабл чизбургер</h3>
+                    <p> чизбургер с двойной говяжьей котлетой, свежим салатом и помидорами на булочке с кунжутом, идеально подходящий для
+                        вечернее угощение.</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">$12.99</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/menu2.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="starts">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Пицца Маргарита</h3>
+                    <p>Классическая пицца Маргарита, украшенная спелыми помидорами, расплавленной моцареллой и листьями свежего базилика.
+                        излучающая суть итальянской кухни</p>
+                    <a href="#" class="btn">Добавить в корзину</a>
+                    <span class="price">1100</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/menu3.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="starts">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Криспи чикен </h3>
+                    <p>Сочные кусочки жареной курицы золотисто-коричневого цвета с хрустящей корочкой и сочной внутри.
+                        подается на свежем салате.</p>
+                    <a href="#" class="btn">Добавить в корзину</a>
+                    <span class="price">1000</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/menu4.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="starts">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Тако</h3>
+                    <p>Пара ярких тако с приправленным говяжьим фаршем, хрустящим салатом, тертым сыром и
+                        нарезанные кубиками помидоры, покрытые хрустящей кукурузной скорлупой.</p>
+                    <a href="#" class="btn">Добавить в корзину</a>
+                    <span class="price">900</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/menu5.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="starts">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Чаша орехово-фруктового наслаждения</h3>
+                    <p>Освежающая смесь сочных фруктов и хрустящих орехов, подаваемая со сливочным йогуртом и украшенная
+                        мята для здорового и приятного удовольствия.</p>
+                    <a href="#" class="btn">Добавить в корзину</a>
+                    <span class="price">800</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/menu6.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="starts">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Малиново-золотой шоколадный торт</h3>
+                    <p>Роскошный шоколадный торт, прослоенный насыщенным ганашем и увенчанный свежей малиной.
+                        посыпан золотыми блестками для роскошного послевкусия.</p>
+                    <a href="#" class="btn">добавить в корзину</a>
+                    <span class="price">700</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/menu7.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="starts">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Пицца</h3>
+                    <p>восхитительный десерт, состоящий из слоев ванильного и клубничного мороженого, сочного покрытого сверху
+                        шоколадный соус, свежая клубника и нотка мяты.</p>
+                    <a href="#" class="btn">добавить в корзину</a>
+                    <span class="price">600</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/menu8.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="starts">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>кексы</h3>
+                    <p>Это миниатюрные, изысканные кексы, украшенные завитками крема и увенчанные свежими
+                        клубника, черника и нежный листочек мяты.</p>
+                    <a href="#" class="btn">Добавить в корзину</a>
+                    <span class="price">500</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/menu9.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="starts">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Апельсиновый сок</h3>
+                    <p>Это яркий, освежающий стакан апельсинового сока, усиленный тонким ароматом свежих трав.
+                        идеально подходит для солнечного дня.</p>
+                    <a href="#" class="btn">Добавить в корзину</a>
+                    <span class="price">400</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/menu10.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="starts">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Шоколадный коктейль</h3>
+                    <p>декадентский шоколадный молочный коктейль со взбитыми сливками, шоколадным сиропом, посыпкой и
+                        вишня, предлагающая восхитительное удовольствие для чувств.</p>
+                    <a href="#" class="btn">Добавить в корзину</a>
+                    <span class="price">300</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/menu11.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="starts">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>фраппе</h3>
+                    <p>насыщенный сливочно-шоколадный фраппе, подаваемый в стиле модного кафе, со взбитыми сливками
+                        топпинг и сладкий дождь.</p>
+                    <a href="#" class="btn">Добавить в корзину</a>
+                    <span class="price">200</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/menu12.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="starts">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Пончики</h3>
+                    <p>это восхитительный ассортимент разноцветных пончиков с разнообразной глазурью и начинками,
+                        символизирующий заманчивый выбор сладких угощений.</p>
+                    <a href="#" class="btn">добавить в корзину</a>
+                    <span class="price">100</span>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- menu section starts  -->
+
+
+    <!-- review section starts-->
+
+    <section class="review" id="review">
+
+        <h3 class="sub-heading"> Отзывы</h3>
+        <h1 class="heading"> отзывы клиентов </h1>
+
+        <div class="swiper review-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/profile1.jpg" alt="">
+                        <div class="user-info">
+                            <h3>Ктото4</h3>
+                            <div class="starts">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Криптофуд — мое любимое место, где можно вкусно поесть! Их жареные куриные крылышки вызывают привыкание, а
+                        Пряная лапша просто идеальна. Отличная еда и вежливое обслуживание каждый раз. я всегда ухожу
+                        доволен и с нетерпением жду моего следующего визита.</p>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/profile2.jpg" alt="">
+                        <div class="user-info">
+                            <h3>Ктото3</h3>
+                            <div class="starts">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p> Криптофуд никогда не разочаровывает своей вкусной пиццей и освежающими соками. Высоко
+                        рекомендую всем, кто ищет уютный обед. Атмосфера привлекательная, что делает его
+                        идеально подходит как для индивидуального обеда, так и для посиделок с друзьями.</p>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/profile3.jpg" alt="">
+                        <div class="user-info">
+                            <h3>Ктото2</h3>
+                            <div class="starts">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Я люблю Криптофуд за яркую атмосферу и аппетитные десерты. Их горячая пицца
+                        Обязательно попробуйте, и персонал всегда радушно принимает вас. Определенный фаворит! Их десерт
+                        выбор просто потрясающий, особенно домашние угощения.</p>
+                </div>
+
+
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/profile4.jpg" alt="">
+                        <div class="user-info">
+                            <h3>Ктото1</h3>
+                            <div class="starts">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Криптофуд сочетает в себе вкусную еду и теплую атмосферу. Их внимание к деталям в каждом блюде, от
+                        закуски к десертам делают ужин здесь восхитительным. Лучший выбор для ужина вне дома!
+                        Разнообразие меню гарантирует, что каждый найдет что-то вкусное.</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- review section ends-->
+
+    <!--- order section starts -->
+
+    <section class="order" id="order">
+
+        <h3 class="sub-heading"> закажите сейчас </h3>
+        <h1 class="heading"> быстрая доставка </h1>
+
+        <form action="">
+
+            <div class="inputBox">
+                <div class="input">
+                    <span>Имя</span>
+                    <input type="text" placeholder="ваше имя">
+                </div>
+                <div class="input">
+                    <span>ваш номер</span>
+                    <input type="number" placeholder="ваш номер телефона">
+                </div>
+            </div>
+            <div class="inputBox">
+                <div class="input">
+                    <span>ваш заказ</span>
+                    <input type="text" placeholder="название заказа">
+                </div>
+                <div class="input">
+                    <span>дополнительно</span>
+                    <input type="test" placeholder="введите дополнение">
+                </div>
+            </div>
+            <div class="inputBox">
+                <div class="input">
+                    <span>how much</span>
+                    <input type="номер" placeholder="сколько заказов">
+                </div>
+                <div class="input">
+                    <span>время и дата</span>
+                    <input type="datetime-local">
+                </div>
+            </div>
+            <div class="inputBox">
+                <div class="input">
+                    <span>ваш коментарий</span>
+                    <textarea name="" placeholder="введите коментарий" id="" cols="30" rows="10"></textarea>
+                </div>
+                <div class="input">
+                    <span>Адрес</span>
+                    <textarea name="" placeholder="Введите адрес" id="" cols="30" rows="10"></textarea>
+                </div>
+            </div>
+
+            <input type="отправить" value="заказать сейчас" class="btn">
+
+        </form>
+
+    </section>
+
+    <!--- order section ends -->
+
+    <!-- footer section starts -->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+
+            <div class="box">
+                <h3>быстрые ссылки</h3>
+                <a href="#">home</a>
+                <a href="#">dishes</a>
+                <a href="#">about</a>
+                <a href="#">menu</a>
+                <a href="#">review</a>
+                <a href="#">order</a>
+            </div>
+
+            <div class="box">
+                <h3>контакты</h3>
+                <a href="#">sultan</a>
+                <a href="#">elzhas</a>
+            </div>
+
+            <div class="box">
+                <h3>подпишиесь</h3>
+                <a href="#"><i class="fab fa-tiktok"></i> tiktok</a>
+                <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
+            </div>
+
+
+
+        </div>
+        <section class="location" id="location">
+            <div class="box">
+                <h3 class="sub-heading"> Посети нас</h3>
+                <h1 class="heading"> найди свое место </h1>
+                <a href="#"><iframe
+                        src=" https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d320671.6673639251!2d71.17194697956586!3d51.10389540296639!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x424580c47db54609%3A0x97f9148dddb19228!2z0JDRgdGC0LDQvdCw!5e0!3m2!1sru!2skz!4v1729727752228!5m2!1sru!2skz"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe></a>
+
+            </div>
+        </section>
+
+        <div class="credit"> sultan_elzhas @ 2024 </div>
+
+    </section>
+
+    <!-- footer section ends -->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link -->
+    <script src="script.js"></script>
+</body>
+
+</html>
